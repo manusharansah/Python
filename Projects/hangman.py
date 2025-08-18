@@ -1,3 +1,7 @@
+'''
+This is the first python project in my journey of learning python in detail.This project was initiated on 16 August,2025. In this project, I learned to run system commands with the help of sys and subprocess module. Also, I learned abouta module called wonderwords that helped me to get the random words of a specified length which was used in this game to give the guessing word to the user. Finally, in this project I used time module to display the time elapsed on playing the game.
+'''
+
 #Ensuring module is installed on machine
 import sys
 import subprocess
