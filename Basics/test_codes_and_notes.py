@@ -112,9 +112,57 @@ print(x)
 
 # r = range(9)
 # print(3.1 in r)
-a = 5
-b =6
-d1 = int(a,2)
-d2 = int(b,2)
-c = a + b
-print(bin(c)[2:])
+# a = 5
+# b =6
+# d1 = int(a,2)
+# d2 = int(b,2)
+# c = a + b
+# print(bin(c)[2:])
+
+
+"Beginning of Day3"
+#List Comprehensions
+
+'Used for creating a list from a list without using loop and conditional separately'
+"In list comprehension, any iterable like tuples, dictionary,etc can be used."
+
+# x = [x**2 for x in range(100)]
+# print(x)
+# def myfunc(n):
+#     return n  % 3
+# x = [100,200,14,78]
+# x.sort(key = myfunc,reverse=True)
+# print(x)
+
+# l = ['apple',"Mango","HaBIbi"]
+# l = [x.lower() for x in l]
+# print(l)
+
+
+# a = 5
+# b = a
+# a = 4
+# print(b)
+
+# l = [1, 5, 7, 3, 9, 0]
+# num = l[:]
+# l[0] = 4
+# print(l,num)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+# list1 = list1 + list2
+# tu = tuple(list1)
+# print(list1)
+# print(list2)
+# print(tu,type(tu))
+# x,y,z = tuple(list1)
+# print(x,type(x))
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+print(mytuple.count('apple'))
+print(mytuple.index('apple'))
