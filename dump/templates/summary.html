@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Expense Summary</h1>
+<canvas id="categoryChart" width="400" height="400"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('categoryChart').getContext('2d');
+new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: {{ categories | safe }},
+        datasets: [{
+            label: 'Expenses by Category',
+            data: {{ amounts | safe }},
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)'
+            ],
+            borderWidth: 1
+        }]
+    }
+});
+</script>
+{% endblock %}
