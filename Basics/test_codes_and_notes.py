@@ -530,3 +530,13 @@ fname = "shakira-shakira.txt"
 # except:
 #     print(f"File {fname} doesn't exist.")
 
+import numpy as np
+
+np.random.seed(42)
+print(np.random.rand(3))  # Sequence A
+
+np.random.seed(100)
+print(np.random.rand(3))  # Sequence B (different from A)
+
+np.random.seed(42)
+print(np.random.rand(3))  # Sequence A again
