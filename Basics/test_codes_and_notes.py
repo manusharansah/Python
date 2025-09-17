@@ -540,3 +540,60 @@ fname = "shakira-shakira.txt"
 
 # np.random.seed(42)
 # print(np.random.rand(3))  # Sequence A again
+
+
+# Decorators 
+'''
+Decorators change the behaviour of the function. They take a function as an input and return another function. They don't modify the original source code of the function. To apply decoartor in the function we use @decorator_name just before the function definition.
+'''
+# def compliment(f):  # Here we pass the function
+#     def changer(name): # Here we pass the arguments of the function.
+#         return f(name) + " You are looking fantastic today."
+#     return changer
+
+# @compliment
+# def greet(name):
+#     return f"Hello {name}."
+
+
+# print(greet("Manu"))
+
+'''
+In real world programming, it is not practical to us the function arguments seek and enter everytime. So, we pass *args, **kwargs such that all the arguments and keyword arguments are passed into the function providing versatility
+'''
+
+
+# def compliment(f):
+#     def changer(*args,**kwargs):
+#         return f(*args,**kwargs) + " You are looking handsome."
+#     return changer
+
+# @compliment
+# def greet(name):
+#     return f"Hello {name}."
+
+# print(greet("Habibi"))
+
+
+'''
+If we plan to use the same decorator in multiple ways with similar functionalities. Then we pass argument to the decorator definition  [@decorator(argument)] and use it according to our choice.
+'''
+
+
+def compliment(n):
+    def compliment(f):
+        def changer(*args, **kwargs):
+            if(n==1):
+                return f(*args, **kwargs) + " You are looking handsome."
+            elif (n==2):
+                return f(*args, **kwargs) + "You look fantastic."
+            else:
+                return f(*args, **kwargs) + "You look good in this outfit."
+        return changer
+    return compliment
+@compliment(1)
+@compliment(0)
+def greet(name):
+    return f"Hello {name}"
+
+print(greet('Habb'))
