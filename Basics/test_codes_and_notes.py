@@ -580,20 +580,23 @@ If we plan to use the same decorator in multiple ways with similar functionaliti
 '''
 
 
-def compliment(n):
-    def compliment(f):
-        def changer(*args, **kwargs):
-            if(n==1):
-                return f(*args, **kwargs) + " You are looking handsome."
-            elif (n==2):
-                return f(*args, **kwargs) + "You look fantastic."
-            else:
-                return f(*args, **kwargs) + "You look good in this outfit."
-        return changer
-    return compliment
-@compliment(1)
-@compliment(0)
-def greet(name):
-    return f"Hello {name}"
+# def compliment(n):
+#     def compliment(f):
+#         def changer(*args, **kwargs):
+#             if(n==1):
+#                 return f(*args, **kwargs) + " You are looking handsome."
+#             elif (n==2):
+#                 return f(*args, **kwargs) + "You look fantastic."
+#             else:
+#                 return f(*args, **kwargs) + "You look good in this outfit."
+#         return changer
+#     return compliment
+# @compliment(1)
+# @compliment(0)
+# def greet(name):
+#     return f"Hello {name}."
 
-print(greet('Habb'))
+# print(greet('Habibi'))
+
+
+print(ord('a'))
