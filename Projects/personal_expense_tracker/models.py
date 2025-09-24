@@ -1,11 +1,5 @@
 '''
-Description of the Project
-Name: Personal Expense Tracker
-Project Number: 2
-
-Directed By:
-ChatGPT
-https://chatgpt.com/c/68a35023-a578-8332-b837-93a2eaf36842
+Project Name: Personal Expense Tracker
 '''
 
 import json
