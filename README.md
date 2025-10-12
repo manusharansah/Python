@@ -22,11 +22,11 @@ The notes and scripts in this repository represent real learning — written, te
 
 **Languages & Tools Used:**
 
-💻 **Programming:** Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python Logo" width="18"/>
+💻 **Programming:** Python <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python Logo" width="18"/>  
 <img src="Basics/Screenshot 2025-10-12 at 14.42.57.png" alt="Python Logo" width="20"/> **Data Structures & Algorithms:** Custom Implementations (Lists, Stacks, Queues, Recursion, Linked Lists, Hash Tables, Trees, Graphs, Sorting, Searching)  
-🗄️ **Databases:** MySQL <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width="18"/> , MongoDB <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="MongoDB Logo" width="20"/>
-📊 **Visualization:** Matplotlib 📈, Seaborn 🎨, ggplot 🖌️
-🤖 **Machine Learning:** scikit-learn 🤖, NumPy 🔢, Pandas 🐼 
+🗄️ **Databases:** MySQL <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" width="18"/> , MongoDB <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="MongoDB Logo" width="20"/>  
+📊 **Visualization:** Matplotlib 📈, Seaborn 🎨, ggplot 🖌️  
+🤖 **Machine Learning:** scikit-learn 🤖, NumPy 🔢, Pandas 🐼  
 🧮 **Environments:** Jupyter Notebook <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="18"/> , VS Code <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" width="18"/>
 
 
